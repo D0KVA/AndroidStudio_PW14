@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/Purple</item>
+        <item name="android:textColorPrimary">@color/Purple</item>
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" >
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/Purple</item>
+    </style>
+</resources>
